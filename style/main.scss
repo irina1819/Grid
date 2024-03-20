@@ -1,0 +1,405 @@
+@import '_values.scss';
+@import url('https://fonts.googleapis.com/css2?family=Besley:');
+.header{
+    .header__container{
+        @extend %container;
+        padding-top: 40px;
+        align-items: center;
+    }
+    .header__nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header__left{
+        gap: 20px;
+        display: flex;
+        a{
+            font-family: Roboto;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 11px;
+            color: white;
+        }
+    }
+}
+.first{
+    .first__container{
+        @extend %container;
+        padding-top: 60px;
+        padding-bottom: 600px;
+        
+    }
+    .header__block{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 410px;
+        h1{
+            @include text(63px);
+            margin: 0;
+            font-weight: 400;
+            line-height: 60px;
+            color: white;
+        }
+        button{
+            background: black;
+            padding: 10px 30px;
+            color: white;
+            font-size: 15px;
+            font-weight: 400;
+            align-self: self-start;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+.two{
+    .two__container{
+        @extend %container;
+        padding: 40px;
+        display: flex;
+        gap: 50px;
+        max-width: 1000px;
+    }
+    .two__item{
+        display: flex;
+        gap: 15px;
+        h3{
+            margin: 0;
+            @include text(25px);
+        }
+        p{
+            margin: 0;
+            @include text(15px);
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+}
+.three{
+    .three__container{
+        padding-top: 10px;
+        @extend %container;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(0,0,0,0.2)
+        
+    }
+    .three__top{
+        @include text(125px);
+        margin: 0;
+        font-size: 125px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    .three__grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    .three__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            @include text(9px);
+            max-width: 100px;
+            text-align: center;
+        }
+    }
+    .three__button{
+        background: black;
+        padding: 10px 30px;
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        align-self: center;
+        border: none;
+        cursor: pointer;
+
+    }
+    .three__small-text{
+        @include text(9px);
+        margin-top: 100px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+    .three__last-text{
+        @include text(38px);
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+.four{
+    .four__container{
+        @extend %container;
+        padding-top: 20px;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .four__right{
+        background:  #F4EDE6;
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        align-items: center
+        ;
+
+        .four__image{
+            object-fit: cover;
+        }
+        h3{
+            @include text(52px);
+            max-width: 440px;
+            text-align: center;
+            color:  #425E44;
+        }
+        p{
+            margin-top: 70px;
+            @include text(9px);
+            color: #425E44;
+            text-align: center;
+        }
+    }
+}
+.five{
+    .five__container{
+        @extend %container;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        flex-direction: column;
+        h1{
+            margin: 0;
+            @include text(192px);
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p{
+            text-align: center;
+            max-width: 600px;
+            @include text(21px);
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+        button{
+            background: black;
+            padding: 10px 30px;
+            color: white;
+            font-size: 15px;
+            font-weight: 400;
+            align-self: center;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+.six{
+    .six__container{
+        @extend %container;
+        padding-top: 20px;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 60px;
+    }
+    .four__right{
+        background:  #F4EDE6;
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        align-items: center
+        ;
+
+        .four__image{
+            object-fit: cover;
+        }
+        h3{
+            @include text(52px);
+            max-width: 440px;
+            text-align: center;
+            color:  #1F1E1E;
+        }
+        p{
+            margin-top: 70px;
+            @include text(9px);
+            color: #425E44;
+            text-align: center;
+        }
+    }
+    button{
+        background: black;
+        padding: 10px 30px;
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        align-self: center;
+        border: none;
+        cursor: pointer;
+    }
+}
+.seven{
+    .seven__container{
+        @extend %container;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    .six__item{
+        background:  #C6BC8A;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        h3{
+            margin: 0;
+            margin-top: 160px;
+            margin-bottom: 20px;
+            @include text(52px);
+            max-width: 420px;
+            text-align: center;
+            color:  #425E44;
+        }
+        .six__text{
+            @include text(20px);
+            color: #425E44;
+        }
+        .six__small-text{
+            color:  #425E44;
+            @include text(9px);
+            margin-top: auto;
+            margin-bottom: 30px;
+        }
+    }
+}
+.eight{
+    .eight__container{
+        @extend %container;
+        border-top: 1px solid rgba(0,0,0,0.2);
+        padding-top: 25px;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    .eight__left{
+        display: flex;
+        flex-direction: column;
+        
+        padding-top: 25px;
+        h2{
+            @include text(38px);
+            margin-bottom: 10px;
+            margin-top: 0;
+            max-width: 310px;
+        }
+        .input__block{
+            position: relative;
+        }
+        .eight__input{
+            width: 270px;
+            margin-bottom: 100px;
+            font-size: 25px;
+            padding: 5px;
+        }
+        p{
+            @include text(9px);
+        }
+    }
+    .strelka{
+       align-self: flex-start;
+       position: absolute;
+       top: 13px;
+       right: 60px;
+       cursor: pointer;
+    }
+    .eight__right{
+        padding-left: 30px;
+        padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-left: 1px solid rgba(0,0,0,0.2);
+        padding-top: 25px;
+    }
+    .eight__right-top{
+        display: flex;
+        justify-content: space-around;
+    }
+    .eight__right-top-item{
+        display: flex;
+        flex-direction: column;
+        max-width: 60px;
+        gap: 20x;
+        p{
+            margin: 0;
+            @include text(9px);
+            margin-bottom: 4px;
+        }
+        p:nth-child(1){
+            margin-bottom: 10px;
+        }
+    }
+    .eight__right-bottom{
+        display: flex;
+        gap: 40px;
+        p{
+            @include text(9px)
+        }
+
+    }
+
+
+}
+
+.last{
+    .last__container{
+        @extend %container;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    h1{
+        margin: 0;
+        @include text(clamp(14.688rem, 5.597rem + 14.2vw, 16.25rem));
+        font-family: Besley;
+        
+    }
+    .last__item{
+        display: flex;
+        justify-content: space-between;
+    }
+    .last__left{
+        display: flex;gap: 100px;
+        a{
+            text-decoration: none;
+            color: black;
+            margin: 0;
+            @include text(9px);
+        }
+    }
+    .last__right{
+        display: flex;
+        gap: 50px;
+        a{
+            text-decoration: none;
+            color: black;
+            margin: 0;
+            @include text(9px);
+        }
+    }
+}

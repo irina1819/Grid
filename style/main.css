@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:");
+body {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.last .last__container, .eight .eight__container, .seven .seven__container, .six .six__container, .five .five__container, .four .four__container, .three .three__container, .two .two__container, .first .first__container, .header .header__container {
+  max-width: 1100px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header .header__container {
+  padding-top: 40px;
+  align-items: center;
+}
+.header .header__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header .header__left {
+  gap: 20px;
+  display: flex;
+}
+.header .header__left a {
+  font-family: Roboto;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 11px;
+  color: white;
+}
+
+.first .first__container {
+  padding-top: 60px;
+  padding-bottom: 600px;
+}
+.first .header__block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 410px;
+}
+.first .header__block h1 {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 63px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 60px;
+  color: white;
+}
+.first .header__block button {
+  background: black;
+  padding: 10px 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  align-self: self-start;
+  border: none;
+  cursor: pointer;
+}
+
+.two .two__container {
+  padding: 40px;
+  display: flex;
+  gap: 50px;
+  max-width: 1000px;
+}
+.two .two__item {
+  display: flex;
+  gap: 15px;
+}
+.two .two__item h3 {
+  margin: 0;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 25px;
+}
+.two .two__item p {
+  margin: 0;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.three .three__container {
+  padding-top: 10px;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.three .three__top {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 125px;
+  margin: 0;
+  font-size: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.three .three__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.three .three__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.three .three__item p {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 9px;
+  max-width: 100px;
+  text-align: center;
+}
+.three .three__button {
+  background: black;
+  padding: 10px 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+}
+.three .three__small-text {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 9px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.three .three__last-text {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 38px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  text-align: center;
+}
+
+.four .four__container {
+  padding-top: 20px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.four .four__right {
+  background: #F4EDE6;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: center;
+}
+.four .four__right .four__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.four .four__right h3 {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 52px;
+  max-width: 440px;
+  text-align: center;
+  color: #425E44;
+}
+.four .four__right p {
+  margin-top: 70px;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 9px;
+  color: #425E44;
+  text-align: center;
+}
+
+.five .five__container {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  flex-direction: column;
+}
+.five .five__container h1 {
+  margin: 0;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 192px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.five .five__container p {
+  text-align: center;
+  max-width: 600px;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.five .five__container button {
+  background: black;
+  padding: 10px 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+}
+
+.six .six__container {
+  padding-top: 20px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 60px;
+}
+.six .four__right {
+  background: #F4EDE6;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: center;
+}
+.six .four__right .four__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.six .four__right h3 {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 52px;
+  max-width: 440px;
+  text-align: center;
+  color: #1F1E1E;
+}
+.six .four__right p {
+  margin-top: 70px;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 9px;
+  color: #425E44;
+  text-align: center;
+}
+.six button {
+  background: black;
+  padding: 10px 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+}
+
+.seven .seven__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.seven .six__item {
+  background: #C6BC8A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.seven .six__item h3 {
+  margin: 0;
+  margin-top: 160px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 52px;
+  max-width: 420px;
+  text-align: center;
+  color: #425E44;
+}
+.seven .six__item .six__text {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 20px;
+  color: #425E44;
+}
+.seven .six__item .six__small-text {
+  color: #425E44;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 9px;
+  margin-top: auto;
+  margin-bottom: 30px;
+}
+
+.eight .eight__container {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 25px;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.eight .eight__left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+.eight .eight__left h2 {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 38px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  max-width: 310px;
+}
+.eight .eight__left .input__block {
+  position: relative;
+}
+.eight .eight__left .eight__input {
+  width: 270px;
+  margin-bottom: 100px;
+  font-size: 25px;
+  padding: 5px;
+}
+.eight .eight__left p {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 9px;
+}
+.eight .strelka {
+  align-self: flex-start;
+  position: absolute;
+  top: 13px;
+  right: 60px;
+  cursor: pointer;
+}
+.eight .eight__right {
+  padding-left: 30px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 25px;
+}
+.eight .eight__right-top {
+  display: flex;
+  justify-content: space-around;
+}
+.eight .eight__right-top-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 60px;
+  gap: 20x;
+}
+.eight .eight__right-top-item p {
+  margin: 0;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 9px;
+  margin-bottom: 4px;
+}
+.eight .eight__right-top-item p:nth-child(1) {
+  margin-bottom: 10px;
+}
+.eight .eight__right-bottom {
+  display: flex;
+  gap: 40px;
+}
+.eight .eight__right-bottom p {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 9px;
+}
+
+.last .last__container {
+  flex-direction: column;
+  padding-top: 30px;
+}
+.last h1 {
+  margin: 0;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: clamp(14.688rem, 5.597rem + 14.2vw, 16.25rem);
+  font-family: Besley;
+}
+.last .last__item {
+  display: flex;
+  justify-content: space-between;
+}
+.last .last__left {
+  display: flex;
+  gap: 100px;
+}
+.last .last__left a {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 9px;
+}
+.last .last__right {
+  display: flex;
+  gap: 50px;
+}
+.last .last__right a {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 9px;
+}/*# sourceMappingURL=main.css.map */
