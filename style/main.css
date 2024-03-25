@@ -71,7 +71,7 @@ body {
 .two .two__container {
   padding: 40px;
   display: flex;
-  gap: 50px;
+  gap: 60px;
   max-width: 1000px;
 }
 .two .two__item {
@@ -371,7 +371,7 @@ body {
 .eight .eight__right-top-item {
   display: flex;
   flex-direction: column;
-  max-width: 60px;
+  max-width: 40px;
   gap: 20x;
 }
 .eight .eight__right-top-item p {
@@ -380,13 +380,14 @@ body {
   font-family: Roboto;
   font-size: 9px;
   margin-bottom: 4px;
+  text-transform: uppercase;
 }
 .eight .eight__right-top-item p:nth-child(1) {
   margin-bottom: 10px;
 }
 .eight .eight__right-bottom {
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 .eight .eight__right-bottom p {
   font-weight: 400;

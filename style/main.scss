@@ -60,7 +60,7 @@
         @extend %container;
         padding: 40px;
         display: flex;
-        gap: 50px;
+        gap: 60px;
         max-width: 1000px;
     }
     .two__item{
@@ -344,12 +344,13 @@
     .eight__right-top-item{
         display: flex;
         flex-direction: column;
-        max-width: 60px;
+        max-width: 40px;
         gap: 20x;
         p{
             margin: 0;
             @include text(9px);
             margin-bottom: 4px;
+            text-transform: uppercase;
         }
         p:nth-child(1){
             margin-bottom: 10px;
@@ -357,7 +358,7 @@
     }
     .eight__right-bottom{
         display: flex;
-        gap: 40px;
+        gap: 50px;
         p{
             @include text(9px)
         }
